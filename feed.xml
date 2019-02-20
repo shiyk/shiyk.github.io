@@ -4,10 +4,10 @@
     <title>yongkun</title>
     <description>YongKun's Blog.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Feb 2019 01:21:29 +0800</pubDate>
-    <lastBuildDate>Wed, 20 Feb 2019 01:21:29 +0800</lastBuildDate>
+    <link>https://shiyongkun.github.io/</link>
+    <atom:link href="https://shiyongkun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 20 Feb 2019 21:23:01 +0800</pubDate>
+    <lastBuildDate>Wed, 20 Feb 2019 21:23:01 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -185,8 +185,8 @@
 
 </description>
         <pubDate>Mon, 05 Jun 2017 22:56:00 +0800</pubDate>
-        <link>http://localhost:4000/posts/lsbasi-part8/</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/lsbasi-part8/</guid>
+        <link>https://shiyongkun.github.io/posts/lsbasi-part8/</link>
+        <guid isPermaLink="true">https://shiyongkun.github.io/posts/lsbasi-part8/</guid>
         
         <category>Translate</category>
         
@@ -865,8 +865,8 @@ spi&amp;gt; 7 + &lt;span class=&quot;o&quot;&gt;(((&lt;/span&gt;3 + 2&lt;span cl
 &lt;p&gt;顺便，我正在写一本叫做“Let’s Build A Web Server: First Steps”的书，主要内容是关于怎么从零开始编写一个简单的web服务器。想要先睹为快的话可以点击&lt;a href=&quot;http://ruslanspivak.com/lsbaws-part1/&quot;&gt;这里&lt;/a&gt;，&lt;a href=&quot;http://ruslanspivak.com/lsbaws-part2/&quot;&gt;这里&lt;/a&gt;，和&lt;a href=&quot;http://ruslanspivak.com/lsbaws-part3/&quot;&gt;这里&lt;/a&gt;。想知道这本书的最近更新和出版日期的话，可以到邮件列表里询问。&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 Jan 2017 23:34:00 +0800</pubDate>
-        <link>http://localhost:4000/posts/lsbasi-part7/</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/lsbasi-part7/</guid>
+        <link>https://shiyongkun.github.io/posts/lsbasi-part7/</link>
+        <guid isPermaLink="true">https://shiyongkun.github.io/posts/lsbasi-part7/</guid>
         
         <category>Translate</category>
         
