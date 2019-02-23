@@ -140,6 +140,9 @@
       // update content
       this.updateHtml.bind(this)('main');
 
+      // scroll to top
+      $("html, body").animate({ scrollTop: 0 }, 0);
+
       // swap oldContainer and newContainer, since oldContainer has been updated, and newContainer is no longer needed.
       this.swapContainer.bind(this)();
 
