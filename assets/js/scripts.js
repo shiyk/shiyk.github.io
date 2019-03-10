@@ -109,11 +109,9 @@
  */
 (function() {
 
-  var FadeTransition = Barba.BaseTransition.extend({
+  var OverwriteTransition = Barba.BaseTransition.extend({
     start: function() {
-      Promise
-        .all([this.newContainerLoading])
-        .then(this.switch.bind(this));
+      this.newContainerLoading.then(this.switch.bind(this));
     },
   
     switch: function() {
@@ -121,7 +119,6 @@
       // update cover background
       var $newContainer = $(this.newContainer);
       var $oldContainer = $(this.oldContainer);
-      var oldCoverBg = $oldContainer.find('.cover-image-on').css('background-image');
       var newCoverBg = $newContainer.find('.cover-image-on').css('background-image');
       $oldContainer.find('.cover-image:not(.cover-image-on)').css('background-image', newCoverBg);
       $oldContainer.find('.cover-image:not(.cover-image-on)').addClass('cover-image-switch');
@@ -166,7 +163,7 @@
   
   
   Barba.Pjax.getTransition = function() {
-    return FadeTransition;
+    return OverwriteTransition;
   };
   Barba.Pjax.start();
 })();
