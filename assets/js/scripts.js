@@ -105,8 +105,28 @@
 })();
 
 /**
- * Use Barba.js PJAX.
- */
+ * highlight.js
+ * ========================================================================= */
+
+function initHighlightJs() {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+  $('code:not(pre code)').each(function(i, inline) {
+    hljs.highlightBlock(inline);
+    $(inline).addClass('hljs-inline');
+  });
+}
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  initHighlightJs();
+});
+
+
+/**
+ * init Barba.js PJAX.
+ * ========================================================================= */
+
 (function() {
 
   var OverwriteTransition = Barba.BaseTransition.extend({
@@ -145,6 +165,9 @@
 
       // done
       this.done();
+
+      // init highlight.js since content has been reloaded.
+      initHighlightJs();
     },
 
     updateHtml: function(selector) {
