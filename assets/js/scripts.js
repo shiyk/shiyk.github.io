@@ -114,7 +114,6 @@ function initHighlightJs() {
   });
   $('code:not(pre code)').each(function(i, inline) {
     hljs.highlightBlock(inline);
-    $(inline).addClass('hljs-inline');
   });
 }
 
