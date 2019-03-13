@@ -6,12 +6,12 @@
 </description>
     <link>https://shiyongkun.github.io/</link>
     <atom:link href="https://shiyongkun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Mar 2019 23:02:44 +0800</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2019 23:02:44 +0800</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2019 23:11:30 +0800</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2019 23:11:30 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>给静态博客添加页面切换效果</title>
+        <title>在Jekyll中使用highlight.js</title>
         <description>&lt;p&gt;最近想把网站的代码高亮从Jekyll默认的Rouge换成highlight.js，本来以为会很麻烦，没想到简单搜索了一下却发现其实只需要短短几步：&lt;/p&gt;
 
 &lt;ol&gt;
