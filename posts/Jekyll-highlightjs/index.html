@@ -5,21 +5,27 @@ kramdown:
 </code></pre><li><p>引入highlight.js<pre><code class="language-html">&lt;link rel="stylesheet" href="/path/to/styles/default.css"&gt;
 &lt;script src="/path/to/highlight.pack.js"&gt;&lt;/script&gt;
 </code></pre><li><p>启用highlight.js<pre><code class="language-javascript">hljs.initHighlightingOnLoad();
-</code></pre></ol><p>highlight.js默认会高亮所有<code class="html">&lt;pre&gt;&lt;code&gt;...&lt;/code&gt;&lt;/pre&gt;</code>标签内的代码，正好kramdown也会把代码块里的代码放在<code class="html">&lt;pre&gt;&lt;code&gt;...&lt;/code&gt;&lt;/pre&gt;</code>里面，所以不需要特别配置。不过inline代码外面就只有<code class="html">&lt;code&gt;...&lt;/code&gt;</code>标签，所以如果想要高亮inline代码的话，就不能用直接用默认配置启动了。<ol><li><p>修改highlight.js的启动代码：<pre><code class="language-javascript">document.addEventListener('DOMContentLoaded', (event) =&gt; {
+</code></pre></ol><p>highlight.js默认会高亮所有<code class="html">&lt;pre&gt;&lt;code&gt;...&lt;/code&gt;&lt;/pre&gt;</code>标签内的代码，正好kramdown也会把代码块里的代码放在<code class="html">&lt;pre&gt;&lt;code&gt;...&lt;/code&gt;&lt;/pre&gt;</code>里面，所以不需要特别配置。不过inline代码外面就只有<code class="html">&lt;code&gt;...&lt;/code&gt;</code>标签，所以如果想要高亮inline代码的话，就不能用直接用默认配置启动了。<ol><li><p>修改highlight.js的启动代码：<p><code class="javascript">hljs.initHighlightingOnLoad()</code>相当于以下代码：<pre><code class="language-javascript">document.addEventListener('DOMContentLoaded', (event) =&gt; {
   document.querySelectorAll('pre code').forEach((block) =&gt; {
     hljs.highlightBlock(block);
   });
-  $('code:not(pre code)').each(function(i, inline) {
-    hljs.highlightBlock(inline);
+});
+</code></pre><p>要高亮inline代码的，需要把<code class="javascript">hljs.initHighlightingOnLoad()</code>改为：<pre><code class="language-javascript">document.addEventListener('DOMContentLoaded', (event) =&gt; {
+  document.querySelectorAll('code').forEach((code) =&gt; {
+    hljs.highlightBlock(code);
   });
 });
-</code></pre><li><p>添加css代码<pre><code class="language-css">pre code.hljs {
+</code></pre><li><p>添加css代码<p><code class="javascript">hljs.highlightBlock(code);</code>会给<code class="html">&lt;code&gt;</code>标签添加<code class="code">.hljs</code>，这个css类会让<code class="html">&lt;code&gt;</code>以block显示：<pre><code class="language-css">.hljs {
+    display:block;
+    // ...
+}
+</code></pre><p>添加以下css，让inline代码行内显示：<pre><code class="language-css">pre code.hljs {
   display: block;
 }
    
 code.hljs {
   display: inline;
 }
-</code></pre></ol><p>需要注意的是，单纯用两个反引号写inline代码的话，因为没有提供语言信息，所以highlight.js只能猜你写的是那种语言。好在kramdown可以用这种写法指定语言：<pre><code class="language-plaintext">`Redcarpet.new("Hello World!")`{:.ruby}
+</code></pre></ol><p>值得一提的是，highlight.js是通过<code>&lt;code class="javascript"&gt;</code>中的class确定代码语言的，如果简单的写两个反引号的话（如<code>`some codes`</code>），因为没有相关的CSS类，highlight.js就只能靠猜了。好在kramdown可以用这种写法指定语言：<pre><code class="language-plaintext">`Redcarpet.new("Hello World!")`{:.ruby}
 </code></pre><p>如果你用的是pandoc的话，那就是<pre><code class="language-plaintext">`Redcarpet.new("Hello World!")`{.ruby}
 </code></pre><p>完工！ <a class="link-to-post" href="/posts/switch-page-with-pjax/"> <span class="link-to-post__prev">&#10535; &nbsp;Previous post</span> <span class="link-to-post__title">给静态博客添加页面切换效果</span> </a></div><br/> <br/> <br/><div id="disqus_thread"></div><script> /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable }; */ (function() { var d = document, s = d.createElement('script'); s.src = 'https://shiyongkun-github-io.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); </script> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></article></main></div></div><footer class="blog-footer content-wrapper"><p>&copy; <span class="full-year"></span> yongkun</footer><script src="/assets/js/scripts.js"></script> <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-100348669-1', 'auto'); ga('send', 'pageview'); </script>

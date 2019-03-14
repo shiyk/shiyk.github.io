@@ -109,11 +109,8 @@
  * ========================================================================= */
 
 function initHighlightJs() {
-  document.querySelectorAll('pre code').forEach((block) => {
-    hljs.highlightBlock(block);
-  });
-  $('code:not(pre code)').each(function(i, inline) {
-    hljs.highlightBlock(inline);
+  document.querySelectorAll('code').forEach((code) => {
+    hljs.highlightBlock(code);
   });
 }
 
