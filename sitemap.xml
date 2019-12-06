@@ -3,7 +3,7 @@
 
   
   <url>
-    <loc>https://shiyongkun.github.io/posts/Jekyll-highlightjs/</loc>
+    <loc>https://shiyk.dev/posts/Jekyll-highlightjs/</loc>
     
       <lastmod>2019-03-02</lastmod>
     
@@ -12,7 +12,7 @@
   </url>
   
   <url>
-    <loc>https://shiyongkun.github.io/posts/switch-page-with-pjax/</loc>
+    <loc>https://shiyk.dev/posts/switch-page-with-pjax/</loc>
     
       <lastmod>2018-12-08</lastmod>
     
@@ -21,7 +21,7 @@
   </url>
   
   <url>
-    <loc>https://shiyongkun.github.io/posts/lsbasi-part8/</loc>
+    <loc>https://shiyk.dev/posts/lsbasi-part8/</loc>
     
       <lastmod>2017-06-05</lastmod>
     
@@ -30,7 +30,7 @@
   </url>
   
   <url>
-    <loc>https://shiyongkun.github.io/posts/lsbasi-part7/</loc>
+    <loc>https://shiyk.dev/posts/lsbasi-part7/</loc>
     
       <lastmod>2017-01-29</lastmod>
     
@@ -52,10 +52,12 @@
   
     
     <url>
-      <loc>https://shiyongkun.github.io/sitemap.xml</loc>
+      <loc>https://shiyk.dev/sitemap.xml</loc>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
+    
+  
     
   
 

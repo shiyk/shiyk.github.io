@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yongkun</title>
-    <description>YongKun's Blog.
+    <title>YK</title>
+    <description>YK's Blog.
 </description>
-    <link>https://shiyongkun.github.io/</link>
-    <atom:link href="https://shiyongkun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Mar 2019 22:47:28 +0800</pubDate>
-    <lastBuildDate>Thu, 14 Mar 2019 22:47:28 +0800</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <link>https://shiyk.dev/</link>
+    <atom:link href="https://shiyk.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 06 Dec 2019 23:49:45 +0800</pubDate>
+    <lastBuildDate>Fri, 06 Dec 2019 23:49:45 +0800</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>在Jekyll中使用highlight.js</title>
-        <description>&lt;p&gt;最近想把网站的代码高亮从Jekyll默认的Rouge换成highlight.js，本来以为会很麻烦，没想到简单搜索了一下却发现其实只需要短短几步：&lt;/p&gt;
+        <description>&lt;p&gt;最近想把网站的代码高亮从Jekyll默认的Rouge换成highlight.js，本来以为会很麻烦，没想到简单搜索了一下却发现其实只需要短短几步&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -102,8 +102,8 @@ code.hljs {
 &lt;p&gt;完工！&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Mar 2019 21:36:00 +0800</pubDate>
-        <link>https://shiyongkun.github.io/posts/Jekyll-highlightjs/</link>
-        <guid isPermaLink="true">https://shiyongkun.github.io/posts/Jekyll-highlightjs/</guid>
+        <link>https://shiyk.dev/posts/Jekyll-highlightjs/</link>
+        <guid isPermaLink="true">https://shiyk.dev/posts/Jekyll-highlightjs/</guid>
         
         <category>Bloging</category>
         
@@ -474,8 +474,8 @@ Barba.Pjax.start();
 &lt;p&gt;上一节里两个&lt;code class=&quot;css&quot;&gt;.cover-image&lt;/code&gt;互相切换的方法借鉴了&lt;a href=&quot;https://journal.jekyllthemes.io/&quot;&gt;journal&lt;/a&gt;这个主题的实现，致敬！&lt;/p&gt;
 </description>
         <pubDate>Sat, 08 Dec 2018 23:11:00 +0800</pubDate>
-        <link>https://shiyongkun.github.io/posts/switch-page-with-pjax/</link>
-        <guid isPermaLink="true">https://shiyongkun.github.io/posts/switch-page-with-pjax/</guid>
+        <link>https://shiyk.dev/posts/switch-page-with-pjax/</link>
+        <guid isPermaLink="true">https://shiyk.dev/posts/switch-page-with-pjax/</guid>
         
         <category>Bloging</category>
         
@@ -663,8 +663,8 @@ spi&amp;gt; 5 - - - + - (3 + 4) - +2
 
 </description>
         <pubDate>Mon, 05 Jun 2017 22:56:00 +0800</pubDate>
-        <link>https://shiyongkun.github.io/posts/lsbasi-part8/</link>
-        <guid isPermaLink="true">https://shiyongkun.github.io/posts/lsbasi-part8/</guid>
+        <link>https://shiyk.dev/posts/lsbasi-part8/</link>
+        <guid isPermaLink="true">https://shiyk.dev/posts/lsbasi-part8/</guid>
         
         <category>Translate</category>
         
@@ -1358,8 +1358,8 @@ spi&amp;gt; 7 + (((3 + 2)))
 &lt;p&gt;顺便，我正在写一本叫做“Let’s Build A Web Server: First Steps”的书，主要内容是关于怎么从零开始编写一个简单的web服务器。想要先睹为快的话可以点击&lt;a href=&quot;http://ruslanspivak.com/lsbaws-part1/&quot;&gt;这里&lt;/a&gt;，&lt;a href=&quot;http://ruslanspivak.com/lsbaws-part2/&quot;&gt;这里&lt;/a&gt;，和&lt;a href=&quot;http://ruslanspivak.com/lsbaws-part3/&quot;&gt;这里&lt;/a&gt;。想知道这本书的最近更新和出版日期的话，可以到邮件列表里询问。&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 Jan 2017 23:34:00 +0800</pubDate>
-        <link>https://shiyongkun.github.io/posts/lsbasi-part7/</link>
-        <guid isPermaLink="true">https://shiyongkun.github.io/posts/lsbasi-part7/</guid>
+        <link>https://shiyk.dev/posts/lsbasi-part7/</link>
+        <guid isPermaLink="true">https://shiyk.dev/posts/lsbasi-part7/</guid>
         
         <category>Translate</category>
         

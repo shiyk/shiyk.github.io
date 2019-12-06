@@ -1,3 +1,3 @@
-## YongKun's Blog
+## YK's Blog
 
 theme: [voyager](<http://redvi.github.io/voyager>)
