@@ -6,9 +6,9 @@
 </description>
     <link>https://shiyk.dev/</link>
     <atom:link href="https://shiyk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Dec 2019 22:44:20 +0800</pubDate>
-    <lastBuildDate>Sat, 07 Dec 2019 22:44:20 +0800</lastBuildDate>
-    <generator>Jekyll v4.0.0</generator>
+    <pubDate>Tue, 04 Aug 2020 21:18:56 +0800</pubDate>
+    <lastBuildDate>Tue, 04 Aug 2020 21:18:56 +0800</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
     
       <item>
         <title>在Jekyll中使用highlight.js</title>
@@ -488,7 +488,7 @@ Barba.Pjax.start();
         <title>一起来写个简单的解释器（8）</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;本文是&lt;a href=&quot;https://ruslanspivak.com/&quot;&gt;Ruslan Spivak&lt;/a&gt;的《一起来写个简单的解释器》系列的第8篇（&lt;a href=&quot;/posts/lsbasi-part7&quot;&gt;第7篇&lt;/a&gt;）。&lt;br /&gt;
-如果你对kotlin感兴趣，可以参考我的&lt;a href=&quot;https://github.com/shiyongkun/spi-kotlin/tree/part8&quot;&gt;spi-kotlin&lt;/a&gt;。&lt;/p&gt;
+如果你对kotlin感兴趣，可以参考我的&lt;a href=&quot;https://github.com/shiyk/spi-kotlin/tree/part8&quot;&gt;spi-kotlin&lt;/a&gt;。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;今天我们要学习两种一元操作符：一元加(+)和一元减(-)。&lt;/p&gt;
@@ -677,7 +677,7 @@ spi&amp;gt; 5 - - - + - (3 + 4) - +2
         <title>一起来写个简单的解释器（7）</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;本文是&lt;a href=&quot;https://ruslanspivak.com/&quot;&gt;Ruslan Spivak&lt;/a&gt;的《一起来写个简单的解释器》系列的第7篇（&lt;a href=&quot;http://blog.jobbole.com/95145/&quot;&gt;前6篇&lt;/a&gt;）。&lt;br /&gt;
-如果你对kotlin感兴趣，可以参考我的&lt;a href=&quot;https://github.com/shiyongkun/spi-kotlin/tree/part7&quot;&gt;spi-kotlin&lt;/a&gt;。&lt;/p&gt;
+如果你对kotlin感兴趣，可以参考我的&lt;a href=&quot;https://github.com/shiyk/spi-kotlin/tree/part7&quot;&gt;spi-kotlin&lt;/a&gt;。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;上一章的末尾提到过，今天我们要学习后续文章的核心数据结构。准备好了吗？Let’s go！&lt;/p&gt;
